@@ -11,3 +11,8 @@
   --color-grey: #AAAAAA;
   --color-white: #ffffff;
 }
+a {
+  color: unset;
+  text-decoration: none;
+}
+

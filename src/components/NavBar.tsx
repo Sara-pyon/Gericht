@@ -1,21 +1,35 @@
-import {GiHamburgerMenu} from 'react-icons/gi'
-import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { useState } from 'react'
+import './NavBar.css'
 import images from '../constants/images'
-import styles from './NavBar.module.css'
+import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { GiHamburgerMenu } from "react-icons/gi";
+
 
 const NavBar = () => {
+  const[toggle, setToggle] = useState(false);
+  
 
   return (
-    <nav className={styles.nav}>
-        <img src={images.gericht} alt='app logo'/>
-        <ul className='nav-items'>
-            <li className='nav-item'><a ref='#home'>Home</a></li>
-            <li className='nav-item'><a ref='#about'>About</a></li>
-            <li className='nav-item'><a ref='#menu'>Menu</a></li>
-            <li className='nav-item'><a ref='#awards'>Awards</a></li>
-            <li className='nav-item'><a ref='#contact'>Contact</a></li>
-        </ul>
-    </nav>
+    <div className="nav">
+      <div className="nav__img">
+        <img src={images.gericht} alt="" />
+      </div>
+      <ul className={`nav__list  ${toggle? 'active' : ''}`}>
+        <li className="nav__item"><a href="#home">Home</a></li>
+        <li className="nav__item"><a href="#about">About</a></li>
+        <li className="nav__item"><a href="#menu">Menu</a></li>
+        <li className="nav__item"><a href="#awards">Awards</a></li>
+        <li className="nav__item"><a href="#contact">Contact</a></li>
+        <MdOutlineRestaurantMenu className='nav__close' onClick={() => setToggle(false)}/>
+      </ul>
+      <div className="nav__logBook">
+        <a href="#login">Log In / Register</a>
+        <div />
+        <a href="/">Book Table</a>
+      </div>
+      <GiHamburgerMenu className='nav__open'
+            onClick={() => setToggle(true)}/>
+    </div>
   )
 }
 
