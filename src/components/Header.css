@@ -39,3 +39,10 @@
 .header__explore:hover{
     background: var(--color-golden);
 }
+.header__img-container{
+    padding : 1rem;
+}
+.header__img-container > img{
+    width: 100%;
+}
+
