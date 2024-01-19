@@ -26,6 +26,18 @@ p{
 }
 .section{
   padding-block: 5rem;
+  width: 100%;
+  background: var(--color-black);
+}
+.btn-golden{
+  width: 120px;
+  border: 0;
+  background-color: var(--color-golden-hover);
+  font-family: var(--font-base);
+  padding-block: 6px;
+  transition: background .3s;
 }
 
-
+.btn-golden:hover{
+  background: var(--color-golden);
+}

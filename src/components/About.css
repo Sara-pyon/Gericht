@@ -1,0 +1,97 @@
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr;
+}
+.about__definition{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+}
+.about__heading{
+    display: flex;
+    flex-direction: column;
+}
+.about__heading > h2{
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    font-size: 3.5rem;
+}
+.about__heading > img{
+    width: 40px;
+}
+.about__description{
+    color: var(--color-white);
+    font-family: var(--font-alt);
+}
+.about__knife{
+    text-align: center;
+}
+.about__knife > img{
+    height: 910px;
+}
+.definition-left{
+    align-items: end;
+}
+.definition-left .about__heading > img{
+    align-self: end;
+    transform: rotate(180deg);
+}
+.definition-left .about__description{
+    text-align: end;
+}
+.about__section{
+    position: relative;
+    width: 1150px;
+}
+.about-bg{
+    display: flex;
+    position: absolute;
+    inset: 0;
+}
+.about-bg > img{
+    position: absolute;
+    top: 250px;
+    left: 34%;
+    width: 391px;
+    z-index: 0;
+}
+.about-grid{
+    position: relative;
+    z-index: 2;
+}
+@media screen and (max-width: 1000px) {
+    .about-bg > img{
+        left: 30%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .about-bg > img{
+        left: 27%;
+    }
+    .about-grid{
+        grid-template-columns: 1fr 180px 1fr;
+    }
+}
+@media screen and (max-width: 800px) {
+    .about-bg > img{
+        left: 23%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .about-grid{
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+    .about-bg > img{
+        width: 55%;
+        top: 500px
+    }
+    .about__heading > h2{
+        font-size: 2.8rem;
+    }
+    .about__description{
+        max-width: 450px;
+        font-size: 0.9rem;
+    }
+}

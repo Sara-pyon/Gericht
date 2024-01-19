@@ -13,7 +13,7 @@ const SubHeader = ({image}:Props) => {
         <p className="header__description">
         Sit Tellus Lobortis Sed Senectus Vivamus Molestie. Condimentum Volutpat Morbi Facilisis Quam Scelerisque Sapien. Et, Penatibus Aliquam Amet Tellus
         </p>
-        <button className="header__explore">
+        <button className="btn-golden">
             Explore Menu
         </button>
     </div>
