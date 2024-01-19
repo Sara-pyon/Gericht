@@ -13,15 +13,6 @@
     justify-content: center;
     align-items: center;
 }
-.header__subtitle > img{
-    width: 30px;
-}
-.header__subtitle{
-   font-family: var(--font-base);
-   color: var(--color-white);
-   display: flex;
-   flex-direction: column;
-}
 .header__title{
     color: var(--color-golden);
     font-family: var(--font-heading);

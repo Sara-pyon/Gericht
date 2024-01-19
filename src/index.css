@@ -41,3 +41,18 @@ p{
 .btn-golden:hover{
   background: var(--color-golden);
 }
+.section-heading{
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  font-size: 3.5rem;
+}
+/* title with spoon */
+.title-w-spoon > img{
+  width: 30px;
+}
+.title-w-spoon{
+  font-family: var(--font-base);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+}

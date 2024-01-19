@@ -8,8 +8,8 @@ interface Props{
 const AboutDefinition = ({title,image,description, position}:Props) => {
   return (
     <div className={`about__definition ${position}`}>
-        <div className='about__heading' >
-            <h2>{title}</h2>
+        <div className='about__heading ' >
+            <h2 className="section-heading">{title}</h2>
             <img src={image} alt={image} />
         </div>
         <p className="about__description">
