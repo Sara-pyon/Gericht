@@ -1,6 +1,6 @@
-import About from "./components/About"
-import Header from "./components/Header"
-import NavBar from "./components/NavBar"
+import About from "./components/About/About"
+import Header from "./components/header/Header"
+import NavBar from "./components/NavBar/NavBar"
 
 function App() {
   

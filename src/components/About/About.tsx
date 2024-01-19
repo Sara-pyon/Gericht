@@ -1,4 +1,4 @@
-import { images } from '../constants'
+import { images } from '../../constants'
 import AboutDefinition from './AboutDefinition'
 import './About.css'
 

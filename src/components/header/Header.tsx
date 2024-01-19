@@ -1,4 +1,4 @@
-import images from '../constants/images'
+import images from '../../constants/images'
 import HeadingImage from './HeadingImage'
 import './Header.css'
 import SubHeader from './SubHeader'
