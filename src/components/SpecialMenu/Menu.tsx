@@ -11,7 +11,7 @@ const Menu = ({items, title}:Props) => {
     <header className='menu__heading'>{title}</header>
     <ul className="menu__list">
         {items.map(item => 
-        <li className="menu__item">
+        <li className="menu__item" key={item.title}>
             <div className="menu__item-label">
                 <div className="menu__item-heading">
                     <h3 className="menu__item-name">{item.title}</h3>

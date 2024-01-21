@@ -36,7 +36,7 @@ li,ul{
   max-width: 1200px;
 }
 .section{
-  padding-block: 5rem;
+  padding-block: 3rem;
   width: 100%;
   background: var(--color-black);
 }
@@ -55,11 +55,20 @@ li,ul{
 .section-heading{
   color: var(--color-golden);
   font-family: var(--font-base);
-  font-size: 3.5rem;
+  font-size: 3.2rem;
 }
 @media screen and (max-width: 650px) {
   .section-heading{
     font-size: 2.5rem;
+  }
+  
+}
+@media screen and (max-width: 430px){
+  .section-heading{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 0.8rem;
   }
 }
 /* title with spoon */
@@ -71,4 +80,5 @@ li,ul{
   color: var(--color-white);
   display: flex;
   flex-direction: column;
+  font-size: 1.5rem;
 }

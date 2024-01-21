@@ -82,7 +82,7 @@
 }
 @media screen and (max-width: 650px) {
     .menu__heading{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .specialMenu__menu{
         padding: 0;
