@@ -1,5 +1,13 @@
 import images from './images';
 
+export interface Item{
+  title: string;
+  price: string;
+  tags: string;
+}
+
+
+
 const wines = [
   {
     title: 'Chapel Hill Shiraz',

@@ -21,6 +21,17 @@ p{
   padding: 0;
   margin: 0;
 }
+h1, h2, h3{
+  padding: 0;
+  margin: 0;
+}
+ul{
+  list-style: none;
+}
+li,ul{
+  padding: 0;
+  margin: 0;
+}
 .container{
   max-width: 1200px;
 }
@@ -45,6 +56,11 @@ p{
   color: var(--color-golden);
   font-family: var(--font-base);
   font-size: 3.5rem;
+}
+@media screen and (max-width: 650px) {
+  .section-heading{
+    font-size: 2.5rem;
+  }
 }
 /* title with spoon */
 .title-w-spoon > img{
