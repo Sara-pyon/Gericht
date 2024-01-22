@@ -13,6 +13,10 @@
   --color-grey: #AAAAAA;
   --color-white: #ffffff;
 }
+video{
+  width: 100%;
+  object-fit: cover;
+}
 a {
   color: unset;
   text-decoration: none;
