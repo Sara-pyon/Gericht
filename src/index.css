@@ -39,7 +39,7 @@ li,ul{
   overflow: hidden;
 }
 .section{
-  padding-block: 3rem;
+  padding-block: 5rem;
   width: 100%;
   background: var(--color-black);
 }
@@ -96,7 +96,7 @@ li,ul{
 /* section content padding */
 @media screen and (max-width: 1150px) {
   .section-content{
-    padding-inline: 3rem;
+    padding-inline: 2rem;
   }
 }
 @media screen and (max-width: 660px) {

@@ -1,5 +1,6 @@
 import About from "./components/About/About"
 import Chef from "./components/Chef/Chef"
+import Contact from "./components/Contact/Contact"
 import Gallery from "./components/Gallery/Gallery"
 import Header from "./components/header/Header"
 import Intro from "./components/Intro/Intro"
@@ -19,6 +20,7 @@ function App() {
     <Intro />
     <Laurels />
     <Gallery />
+    <Contact />
     </>
   )
 }

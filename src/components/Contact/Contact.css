@@ -1,0 +1,42 @@
+.contact{
+    width: 100%;
+}
+.contact__content{
+    padding-bottom: 4rem;
+}
+.contact__detail{
+    margin-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+.contact__detail > p{
+    color: var(--color-white);
+}
+.contact__detail > h3{
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    font-size: 1.3rem;
+}
+.contact__hours{
+    color: var(--color-white);
+}
+.contact__img{
+    width: 100%;
+}
+.contact__img > img{
+    width: 100%;
+}
+@media screen and (min-width: 850px) {
+    .contact__container{
+        display: flex;
+        flex-direction: row;
+    }
+    .contact__content{
+        flex: 1;
+        width: 100%;
+    }
+    .contact__img{
+        width: 400px;
+    }
+}

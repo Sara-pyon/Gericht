@@ -24,7 +24,7 @@
 }
 .gallery__description{
     color: var(--color-grey);
-    padding-block: 1rem 0.5rem;
+    padding-block: 2rem 1rem;
 }
 .gallery__item{
     position: relative;
@@ -70,7 +70,7 @@
 @media screen and (max-width: 850px) {
     .gallery__container{
         flex-direction: column;
-        row-gap: 3rem;
+        row-gap: 5rem;
     }
     .gallery__images{
         width: 100%;

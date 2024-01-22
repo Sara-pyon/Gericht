@@ -20,7 +20,7 @@ const Gallery = () => {
   return (
     <div className="gallery section">
         <div className="container gallery__container">
-            <div className="gallery__content">
+            <div className="gallery__content section-content">
                 <Showcaseheader title='Photo Gallery' subTitle='Instagram' />
                 <p className="gallery__description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias magnam odit necessitatibus, excepturi eveniet eius maxime ratione harum tenetur.
