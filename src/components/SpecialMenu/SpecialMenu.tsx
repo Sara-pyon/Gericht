@@ -17,11 +17,11 @@ const SpecialMenu = () => {
                 <h2 className='section-heading'>Today's Special</h2>
             </header>
             <div className="specialMenu__body">
-                <div className='specialMenu__menu'>
+                <div className='specialMenu__menu section-content'>
                   <Menu title='Wine & Beer' items={items.wines}/>
                 </div>
                 <img className='specialMenu__img' src={images.menu} />
-                <div className='specialMenu__menu'>
+                <div className='specialMenu__menu section-content'>
                   <Menu title='Cocktails' items={items.cocktails} />
                 </div>
             </div>

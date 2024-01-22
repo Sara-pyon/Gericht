@@ -10,7 +10,7 @@
     row-gap: 0.5rem;
 }
 .chef__body{
-    padding: 3rem;
+    padding-block: 3rem;
     display: flex;
     flex-direction: column;
     row-gap: 3.5rem;

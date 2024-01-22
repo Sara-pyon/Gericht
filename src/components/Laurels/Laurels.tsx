@@ -8,7 +8,7 @@ const Laurels = () => {
   return (
     <div className="laurels section">
         <div className="container laurels__container">
-           <div className="laurels__content">
+           <div className="laurels__content section-content">
                <Showcaseheader title='Our Laurels' subTitle='Awards & Recognition' />
                <div className="laurels__list">
                 {data.awards.map(award => 

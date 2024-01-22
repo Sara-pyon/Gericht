@@ -10,7 +10,7 @@ const Chef = () => {
                 <div >
                     <img src={images.chef} alt="chef photo" className="chef__img" />
                 </div>
-                <div className="chef__body">
+                <div className="chef__body section-content">
                     <div className="chef__heading">
                         <TitleWSpoon title='Chef’s Word' />
                         <h2 className="section-heading">What We Believe In</h2>
