@@ -1,12 +1,16 @@
-import images from '../../constants/images'
+interface Props{
+  image: string;
+  title: string;
+  description: string;
+}
 
-const LaurelsAwards = () => {
+const LaurelsAwards = ({image, title, description}: Props) => {
   return (
     <div className="laurels__item">
-        <img src={images.award02} alt='awards' />
+        <img src={image} alt='awards' />
         <div className="laurels__label">
-            <p className="laurels__title">Big champion</p>
-            <p className="laurels__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, ducimus.</p>
+            <p className="laurels__title">{title}</p>
+            <p className="laurels__description">{description}</p>
         </div>
     </div>
   )
