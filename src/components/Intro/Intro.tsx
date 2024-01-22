@@ -23,7 +23,7 @@ const Intro = () => {
              controls={false}
              ></video>
         <div className="intro__overlay d-flex justify-content-center align-items-center">
-          <div className="intro__videoControl flex-center d-flex justify-content-center align-items-center">
+          <div className="intro__videoControl d-flex justify-content-center align-items-center">
             { playvideo ? <BsFillPauseFill fontSize={30} onClick={handleVideo} /> :
             <BsFillPlayFill fontSize={30} onClick={handleVideo} />}
           </div>
