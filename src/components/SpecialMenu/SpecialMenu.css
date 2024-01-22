@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 2rem;
     padding-bottom: 5rem;
 }
 .specialMenu__body{

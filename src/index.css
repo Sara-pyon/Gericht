@@ -20,6 +20,8 @@ a {
 p{
   padding: 0;
   margin: 0;
+  font-size: 0.9rem;
+  font-family: var(--font-alt);
 }
 h1, h2, h3{
   padding: 0;
@@ -52,6 +54,8 @@ li,ul{
 .btn-golden:hover{
   background: var(--color-golden);
 }
+
+/* section heading */
 .section-heading{
   color: var(--color-golden);
   font-family: var(--font-base);
@@ -80,5 +84,6 @@ li,ul{
   color: var(--color-white);
   display: flex;
   flex-direction: column;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
 }
