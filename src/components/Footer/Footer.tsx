@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer section">
         <div className="container footer__container">
             <div className="footer__subscribe">
-                <Subscribe />
+                <Subscribe subscribe={(email) => console.log(email)} />
             </div>
             <div className="footer__group">
                 <div className="footer__contact">
