@@ -3,6 +3,7 @@
     flex-direction: row;
     width: 100%;
     align-items: center;
+    column-gap: 3rem;
 }
 .chef__heading{
     display: flex;
