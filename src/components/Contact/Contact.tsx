@@ -4,7 +4,7 @@ import { images } from '../../constants'
 
 const Contact = () => {
   return (
-    <div className="contact section">
+    <div className="contact section" id='Contact'>
         <div className="contact__container container">
             <div className="contact__content section-content">
                 <Showcaseheader title='Find Us' subTitle='Contact' />

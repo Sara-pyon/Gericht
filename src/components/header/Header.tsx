@@ -5,7 +5,7 @@ import SubHeader from './SubHeader'
 
 const Header = ({}) => {
   return (
-    <div className="header section" id='header'>
+    <div className="header section" id='Home'>
      <div className='container'>
         <div className="header__grid">
           <SubHeader image={images.spoon} />

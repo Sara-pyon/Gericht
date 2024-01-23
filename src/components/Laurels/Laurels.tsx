@@ -6,7 +6,7 @@ import data from '../../constants/data'
 
 const Laurels = () => {
   return (
-    <div className="laurels section">
+    <div className="laurels section" id='Awards'>
         <div className="container laurels__container">
            <div className="laurels__content section-content">
                <Showcaseheader title='Our Laurels' subTitle='Awards & Recognition' />

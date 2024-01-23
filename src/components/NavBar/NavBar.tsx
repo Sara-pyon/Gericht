@@ -15,11 +15,11 @@ const NavBar = () => {
         <img src={images.gericht} alt="" />
       </div>
       <ul className={`nav__list  ${toggle? 'active' : ''}`}>
-        <li className="nav__item"><a href="#home">Home</a></li>
-        <li className="nav__item"><a href="#about">About</a></li>
-        <li className="nav__item"><a href="#menu">Menu</a></li>
-        <li className="nav__item"><a href="#awards">Awards</a></li>
-        <li className="nav__item"><a href="#contact">Contact</a></li>
+        <li className="nav__item"><a href="#Home">Home</a></li>
+        <li className="nav__item"><a href="#About">About</a></li>
+        <li className="nav__item"><a href="#Menu">Menu</a></li>
+        <li className="nav__item"><a href="#Awards">Awards</a></li>
+        <li className="nav__item"><a href="#Contact">Contact</a></li>
         <MdOutlineRestaurantMenu className='nav__close' onClick={() => setToggle(false)}/>
       </ul>
       <div className="nav__logBook">

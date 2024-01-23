@@ -10,7 +10,7 @@ import items from '../../constants/data'
 const SpecialMenu = () => {
 
   return (
-    <div className="specialMenu section" id='specialMenu'>
+    <div className="specialMenu section" id='Menu'>
         <div className="container">
             <header className="specialMenu__header">
                 <TitleWSpoon title='Menu That Fits You Palatte'/>

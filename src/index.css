@@ -13,6 +13,9 @@
   --color-grey: #AAAAAA;
   --color-white: #ffffff;
 }
+body{
+  background: var(--color-black);
+}
 a {
   color: unset;
   text-decoration: none;
@@ -39,9 +42,9 @@ li,ul{
   overflow: hidden;
 }
 .section{
-  padding-block: 5rem;
+  padding-block: 2rem;
+  margin-block: 2rem;
   width: 100%;
-  background: var(--color-black);
 }
 .btn-golden{
   width: 120px;
