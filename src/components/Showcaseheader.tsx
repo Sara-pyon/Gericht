@@ -1,4 +1,3 @@
-import React from 'react'
 import TitleWSpoon from './TitleWSpoon'
 
 interface Props{

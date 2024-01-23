@@ -8,7 +8,7 @@ const Header = ({}) => {
     <div className="header section" id='Home'>
      <div className='container'>
         <div className="header__grid">
-          <SubHeader image={images.spoon} />
+          <SubHeader />
           <HeadingImage image={images.welcome} />
         </div>
      </div>

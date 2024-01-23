@@ -1,10 +1,6 @@
 import TitleWSpoon from "../TitleWSpoon";
 
-interface Props{
-  image: string;
-}
-
-const SubHeader = ({image}:Props) => {
+const SubHeader = () => {
   return (
     <div className='subheader'>
         <TitleWSpoon title="Chase The New Flavour"/>
