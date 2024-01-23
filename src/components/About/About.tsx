@@ -9,7 +9,7 @@ const About = () => {
     const des2 = 'Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Quis Pharetra Adipiscing Ultrices Vulputate Posuere Tristique. In Sed Odio Nec Aliquet Eu Proin Mauris Et.'
 
   return (
-    <div className="about section">
+    <div className="about section" id='About'>
         <div className="about__section container">
             <div className="about-grid">
                 <AboutDefinition title={title1} description={des1}

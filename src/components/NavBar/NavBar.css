@@ -58,6 +58,7 @@
         flex-direction: column;
         row-gap: 1rem;
         font-size: 1.2rem;
+        z-index: 100;
     }
     .nav__item{
         font-family: var(--font-base);
